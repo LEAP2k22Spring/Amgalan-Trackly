@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer utilities {
+  .perfectCenter {
+    @apply flex items-center justify-center;
+  }
+  .fleItemCenterBetween {
+    @apply flex items-center justify-between;
+  }
+  .fullScreen {
+    @apply w-full h-screen;
+  }
+  .sidebarButton {
+    @apply flex items-center w-28 gap-x-3;
+  }
+  .flexItemCenter {
+    @apply flex items-center;
+  }
+  .createEmployBtn{
+    @apply flex-1 border border-black py-1.5 rounded-md
+  }
+}
